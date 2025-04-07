@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta</title>
+    <link href="tyyli.css" rel="stylesheet">
+</head>
+<body>
+    <video class="background-video" autoplay loop muted playsinline>
+        <source src="vanta_back_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <img src="Vanta-main-logo.png" alt="Centered Image" class="center-image">
+
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="index.html" class="menutext">Home</a>
+            <a href="diskographia.html" class="menutext">Discography</a>
+            <a href="tietoja.html" class="menutext">About us</a>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    <h1>Home</h1>
+</body>
+</html>
