@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen to us</title>
+    <link href="tyyli.css" rel="stylesheet">
+    <link href="diskographia.css" rel="stylesheet">
+</head>
+<body>
+    <video class="background-video" autoplay muted loop>
+        <source src="Vanta_disc_final.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h1 class="main">Releases</h1>
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="index.html" class="menutext">Home</a>
+            <a href="diskographia.html" class="menutext">Discography</a>
+            <a href="tietoja.html" class="menutext">About us</a>
+        </div>
+    </nav>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Anp6v_sVHWo?si=Opeq7377uQYM0T95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W1BFStB1dbQ?si=UFSDoEqnezjDkVfx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V1lf9kpRdUk?si=WAnNdcTogIU7cPbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0nWjPXQXZWTAwP1sIrZPT7?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/vantatheband" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.instagram.com/vantatheband/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.youtube.com/@vantatheband" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
