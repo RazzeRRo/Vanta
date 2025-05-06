@@ -41,7 +41,7 @@ nav {
 .hamburger div {
     width: 25px;
     height: 3px;
-    background-color: black; 
+    background-color: rgb(213, 215, 218); 
     margin: 4px 0;
     border-radius: 2px; 
 }
